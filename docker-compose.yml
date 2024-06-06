@@ -1,0 +1,6 @@
+﻿services:
+  drivepermissionscanner:
+    image: drivepermissionscanner
+    build:
+      context: .
+      dockerfile: Dockerfile
